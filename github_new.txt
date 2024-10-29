@@ -1,0 +1,59 @@
+C:\Users\malay\Desktop\LocalFolder>git init
+Initialized empty Git repository in C:/Users/malay/Desktop/LocalFolder/.git/
+
+C:\Users\malay\Desktop\LocalFolder>git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        github_setup_29Oct.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\malay\Desktop\LocalFolder>git add .
+
+C:\Users\malay\Desktop\LocalFolder>git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   github_setup_29Oct.txt
+
+
+C:\Users\malay\Desktop\LocalFolder>git commit -m "My first git commit"
+[master (root-commit) 692d9b4] My first git commit
+ 1 file changed, 52 insertions(+)
+ create mode 100644 github_setup_29Oct.txt
+
+C:\Users\malay\Desktop\LocalFolder>git status
+On branch master
+nothing to commit, working tree clean
+
+C:\Users\malay\Desktop\LocalFolder>git remote add origin https://github.com/malayparikh/Remote_Repository29Oct.git
+
+C:\Users\malay\Desktop\LocalFolder>git branch
+WARNING: terminal is not fully functional
+* masters RETURN)
+
+C:\Users\malay\Desktop\LocalFolder>git push -u origin master
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 1.14 KiB | 1.14 MiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/malayparikh/Remote_Repository29Oct.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+C:\Users\malay\Desktop\LocalFolder>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+C:\Users\malay\Desktop\LocalFolder>
